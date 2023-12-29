@@ -1,8 +1,11 @@
 import './Hero.css';
 
-const Hero = () => {
+const Hero = ({herodData,setHeroCount,heroCount,setPlayStatus,playStatus}) => {
     return (
-        <div>Hero</div>
+        <div className='hero'>
+            <p>{herodData.text1}</p>
+            <p>{heroData.text2}</p>
+            </div>
     )
 }
 

@@ -5,7 +5,7 @@ import image2 from '../../assets/tyre2.png';
 
 const Background = (playStatus, heroCount) => {
 
-  if (playStatus = false) {
+  if (playStatus == false) {
     return (
       <video className='background' autoplay loop muted>
         <source src={video1} type='video/mp4' />

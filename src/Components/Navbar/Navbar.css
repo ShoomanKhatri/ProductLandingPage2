@@ -17,6 +17,11 @@ font-weight: 500;
     align-items: center;
     list-style: none;
     font-size:18px;
-    gap:90px;
-    
+    gap:90px;   
+}
+.nav-contact{
+    border-radius: 50px;
+    padding:10px 38px;
+    background: #fff;
+    color:#262626;
 }
