@@ -1,18 +1,20 @@
 .nav{
      display: flex;
-     justify-content: center;
+     justify-content: space-between;
      align-items: center;
      margin:40px 120px;
-     color:black;
+     color:white;
 }
 
 .nav-logo{
 font-family: outfit;
 font-size: 42px;
 font-weight: 500;
+color:#fff;
 }
 
 .nav-menu{
+    color:#fff; 
     display: flex;
     align-items: center;
     list-style: none;
