@@ -3,7 +3,7 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <div className='nav'>
-      <div className='nav-logo'>EV-olution
+      <div className='nav-logo'>EVolution
       </div>
       <ul className="nav-menu">
         <li>Home</li>
