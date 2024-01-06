@@ -8,7 +8,7 @@ const Background = ({ playStatus, heroCount }) => {
 
   if (playStatus) {
     return (
-      <video className='background fade-in' autoplay loop muted>
+      <video className='background fade-in' autoPlay loop muted>
         <source src={video1} type='video/mp4' />
       </video>
     )
